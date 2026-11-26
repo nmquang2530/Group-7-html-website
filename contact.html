@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Group 7 Website - Contact</title>
+    <style>
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f8fafc;
+        color: #1e293b;
+    }
+
+    .container {
+        max-width: 1000px;
+        margin: 0 auto;
+        padding: 0 20px;
+    }
+
+    .site-header {
+        background-color: white;
+        border-bottom: 1px solid #e2e8f0;
+    }
+
+    .header-inner {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 16px;
+        padding-bottom: 16px;
+        flex-wrap: wrap;
+        gap: 12px;
+    }
+
+    .brand {
+        font-size: 1.25rem;
+        font-weight: bold;
+        color: #2563eb;
+        text-decoration: none;
+    }
+
+    .nav-links {
+        list-style: none;
+        display: flex;
+        gap: 20px;
+        flex-wrap: wrap;
+    }
+
+    .nav-links a {
+        text-decoration: none;
+        color: #475569;
+        font-weight: 500;
+        padding: 6px 10px;
+        border-radius: 6px;
+    }
+
+    .nav-links a:hover,
+    .nav-links a.active {
+        color: #2563eb;
+        background-color: #eff6ff;
+    }
+</style>
+</head>
+
+<body>
+
+    <header class="site-header">
+        <div class="container header-inner">
+
+            <a class="brand" href="index.html">Group 7</a>
+
+            <nav aria-label="Main navigation">
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="team.html">Team</a></li>
+                    <li><a href="activities.html">Activities</a></li>
+                    <li><a href="contact.html" class="active">Contact</a></li>
+                </ul>
+            </nav>
+
+        </div>
+    </header>
+
+</body>
+
+</html>
