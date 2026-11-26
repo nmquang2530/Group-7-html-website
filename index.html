@@ -6,20 +6,80 @@
   <title>Group 7 Website - Home</title>
 </head>
 <body>
-  <header>
-    <h1>Welcome to Group 7 Website</h1>
-    <p>Computational Thinking - W07 Git &amp; GitHub Project</p>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">Group 7</a>
+      <nav aria-label="Main navigation">
+        <ul class="nav-links">
+          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="team.html">Team</a></li>
+          <li><a href="activities.html">Activities</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
   </header>
 
   <main>
-    <section>
-      <h2>Project Overview</h2>
-      <p>This static website is built by Group 7 to practice version control workflows with Git and GitHub.</p>
+    <section class="hero">
+      <div class="container">
+        <h1>Welcome to Group 7 Official Website</h1>
+        <p class="subtitle">
+          A collaborative static HTML website built for the W07 Version Control with Git &amp; GitHub project.
+        </p>
+        <div class="hero-actions">
+          <a href="about.html" class="btn btn-primary">Learn About Us</a>
+          <a href="team.html" class="btn btn-outline">Meet the Team</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="highlights">
+      <div class="container">
+        <h2>Explore Our Website</h2>
+        <div class="card-grid">
+          <article class="card">
+            <h3>About the Project</h3>
+            <p>Discover our goals, project structure, and how we organize our workflow using Git branches and Pull Requests.</p>
+            <a href="about.html">Visit About &rarr;</a>
+          </article>
+          <article class="card">
+            <h3>Our Team</h3>
+            <p>Meet the 6 members of Group 7, our assigned roles, and individual contributions to this repository.</p>
+            <a href="team.html">Visit Team &rarr;</a>
+          </article>
+          <article class="card">
+            <h3>Team Activities</h3>
+            <p>Follow our development milestones, code reviews, conflict resolutions, and weekly collaboration sessions.</p>
+            <a href="activities.html">Visit Activities &rarr;</a>
+          </article>
+          <article class="card">
+            <h3>Get in Touch</h3>
+            <p>Have questions or feedback about our W07 project? Reach out to Group 7 through our contact page.</p>
+            <a href="contact.html">Visit Contact &rarr;</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="workflow">
+      <div class="container">
+        <h2>Key Git &amp; GitHub Practices Applied</h2>
+        <ul class="workflow-list">
+          <li><strong>Feature Branching:</strong> Every HTML page is developed independently on its own branch.</li>
+          <li><strong>Pull Requests &amp; Code Reviews:</strong> Changes are reviewed by teammates before merging into <code>main</code>.</li>
+          <li><strong>Conflict Resolution &amp; Revert:</strong> Hands-on practice with merge conflicts and safe commit reversion.</li>
+          <li><strong>Documentation &amp; Release:</strong> Full project documentation in Markdown and deployment via GitHub Pages.</li>
+        </ul>
+      </div>
     </section>
   </main>
 
-  <footer>
-    <p>&copy; 2026 Group 7. All rights reserved.</p>
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; 2026 Group 7 &mdash; W07 Git &amp; GitHub Project. Maintained by Group 7 Members.</p>
+    </div>
   </footer>
 </body>
 </html>
