@@ -65,12 +65,64 @@
         color: #2563eb;
         background-color: #eff6ff;
     }
+    .contact-section {
+    padding: 56px 0;
+}
+
+.contact-section h1 {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 12px;
+}
+
+.contact-intro {
+    text-align: center;
+    color: #475569;
+    margin-bottom: 36px;
+}
+
+.contact-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.contact-card {
+    background-color: white;
+    border: 1px solid #e2e8f0;
+    border-radius: 10px;
+    padding: 24px;
+}
+
+.contact-card h2 {
+    color: #2563eb;
+    font-size: 1.2rem;
+    margin-bottom: 12px;
+}
+
+.contact-card p {
+    color: #475569;
+    margin-bottom: 6px;
+}
+
+.contact-name {
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #1e293b;
+}
+.site-footer {
+    text-align: center;
+    padding: 24px 0;
+    color: #475569;
+    font-size: 0.9rem;
+}
 </style>
 </head>
 
 <body>
 
     <header class="site-header">
+        
         <div class="container header-inner">
 
             <a class="brand" href="index.html">Group 7</a>
@@ -87,7 +139,48 @@
 
         </div>
     </header>
+<main>
+    <section class="contact-section">
+        <div class="container">
 
+            <h1>Contact Our Team</h1>
+            <p class="contact-intro">
+                Have questions about our project?
+                Feel free to reach out to Group 7.
+            </p>
+
+            <div class="contact-list">
+
+                <div class="contact-card">
+                    <h2>Team Leader</h2>
+                    <p class="contact-name">Not Quang</p>
+                    <p>Role: Team Leader</p>
+                    <p>Email: DefinitelynotQuang@example.com</p>
+                </div>
+
+                <div class="contact-card">
+                    <h2>Group Email</h2>
+                    <p class="contact-name">Group 7</p>
+                    <p>Email: Thisisnotworkingatall@example.com</p>
+                </div>
+
+                <div class="contact-card">
+                    <h2>Project Information</h2>
+                    <p>Group: 7</p>
+                    <p>Git & GitHub project</p>
+                    <p> Say wallahi </p>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+</main>
+<footer class="site-footer">
+    <div class="container">
+        <p>&copy; Group 7 — W07 Git & GitHub Project.</p>
+    </div>
+</footer>
 </body>
 
 </html>
