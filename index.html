@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Group 7 Website - Home</title>
+  <style>
+    :root {
+      --primary: #2563eb;
+      --primary-dark: #1d4ed8;
+      --text: #1e293b;
+      --muted: #475569;
+      --bg: #f8fafc;
+      --surface: #ffffff;
+      --border: #e2e8f0;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      color: var(--text);
+      background-color: var(--bg);
+      line-height: 1.6;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: 0 auto;
+      padding: 0 20px;
+    }
+
+    .site-header {
+      background-color: var(--surface);
+      border-bottom: 1px solid var(--border);
+      position: sticky;
+      top: 0;
+      z-index: 10;
+    }
+
+    .header-inner {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding-top: 16px;
+      padding-bottom: 16px;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+
+    .brand {
+      font-size: 1.25rem;
+      font-weight: 700;
+      color: var(--primary);
+      text-decoration: none;
+    }
+
+    .nav-links {
+      list-style: none;
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+
+    .nav-links a {
+      text-decoration: none;
+      color: var(--muted);
+      font-weight: 500;
+      padding: 6px 10px;
+      border-radius: 6px;
+      transition: background-color 0.2s, color 0.2s;
+    }
+
+    .nav-links a:hover,
+    .nav-links a.active {
+      color: var(--primary);
+      background-color: #eff6ff;
+    }
+
+    .hero {
+      background: linear-gradient(135deg, #1e3a8a, #2563eb);
+      color: #ffffff;
+      padding: 72px 0;
+      text-align: center;
+    }
+
+    .hero h1 {
+      font-size: 2.25rem;
+      margin-bottom: 16px;
+    }
+
+    .hero .subtitle {
+      max-width: 640px;
+      margin: 0 auto 28px;
+      color: #dbeafe;
+      font-size: 1.05rem;
+    }
+
+    .hero-actions {
+      display: flex;
+      justify-content: center;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 10px 22px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: 600;
+      transition: opacity 0.2s;
+    }
+
+    .btn:hover {
+      opacity: 0.9;
+    }
+
+    .btn-primary {
+      background-color: #ffffff;
+      color: var(--primary);
+    }
+
+    .btn-outline {
+      border: 2px solid #ffffff;
+      color: #ffffff;
+    }
+
+    .highlights,
+    .workflow {
+      padding: 56px 0;
+    }
+
+    .highlights h2,
+    .workflow h2 {
+      font-size: 1.6rem;
+      margin-bottom: 24px;
+      text-align: center;
+    }
+
+    .card-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background-color: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 24px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      gap: 12px;
+    }
+
+    .card h3 {
+      font-size: 1.15rem;
+      color: var(--text);
+    }
+
+    .card p {
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+
+    .card a {
+      color: var(--primary);
+      text-decoration: none;
+      font-weight: 600;
+    }
+
+    .card a:hover {
+      text-decoration: underline;
+    }
+
+    .workflow {
+      background-color: var(--surface);
+      border-top: 1px solid var(--border);
+      border-bottom: 1px solid var(--border);
+    }
+
+    .workflow-list {
+      max-width: 760px;
+      margin: 0 auto;
+      list-style: none;
+      display: grid;
+      gap: 14px;
+    }
+
+    .workflow-list li {
+      background-color: var(--bg);
+      border-left: 4px solid var(--primary);
+      padding: 14px 18px;
+      border-radius: 6px;
+    }
+
+    .site-footer {
+      text-align: center;
+      padding: 24px 0;
+      color: var(--muted);
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">Group 7</a>
+      <nav aria-label="Main navigation">
+        <ul class="nav-links">
+          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="team.html">Team</a></li>
+          <li><a href="activities.html">Activities</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container">
+        <h1>Welcome to Group 7 Official Website</h1>
+        <p class="subtitle">
+          A collaborative static HTML website built for the W07 Version Control with Git &amp; GitHub project.
+        </p>
+        <div class="hero-actions">
+          <a href="about.html" class="btn btn-primary">Learn About Us</a>
+          <a href="team.html" class="btn btn-outline">Meet the Team</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="highlights">
+      <div class="container">
+        <h2>Explore Our Website</h2>
+        <div class="card-grid">
+          <article class="card">
+            <h3>About the Project</h3>
+            <p>Discover our goals, project structure, and how we organize our workflow using Git branches and Pull Requests.</p>
+            <a href="about.html">Visit About &rarr;</a>
+          </article>
+          <article class="card">
+            <h3>Our Team</h3>
+            <p>Meet the 6 members of Group 7, our assigned roles, and individual contributions to this repository.</p>
+            <a href="team.html">Visit Team &rarr;</a>
+          </article>
+          <article class="card">
+            <h3>Team Activities</h3>
+            <p>Follow our development milestones, code reviews, conflict resolutions, and weekly collaboration sessions.</p>
+            <a href="activities.html">Visit Activities &rarr;</a>
+          </article>
+          <article class="card">
+            <h3>Get in Touch</h3>
+            <p>Have questions or feedback about our W07 project? Reach out to Group 7 through our contact page.</p>
+            <a href="contact.html">Visit Contact &rarr;</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="workflow">
+      <div class="container">
+        <h2>Key Git &amp; GitHub Practices Applied</h2>
+        <ul class="workflow-list">
+          <li><strong>Feature Branching:</strong> Every HTML page is developed independently on its own branch.</li>
+          <li><strong>Pull Requests &amp; Code Reviews:</strong> Changes are reviewed by teammates before merging into <code>main</code>.</li>
+          <li><strong>Conflict Resolution &amp; Revert:</strong> Hands-on practice with merge conflicts and safe commit reversion.</li>
+          <li><strong>Documentation &amp; Release:</strong> Full project documentation in Markdown and deployment via GitHub Pages.</li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; 2026 Group 7 &mdash; W07 Git &amp; GitHub Project. Maintained by Group 7 Members.</p>
+    </div>
+  </footer>
+</body>
+</html>
