@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Activities | Group 7</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f5f7fa;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        /* ========== NAVBAR ========== */
+        nav {
+            background-color: #1e3a5f;
+            padding: 15px 0;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+        }
+
+        .nav-container {
+            max-width: 1100px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 20px;
+        }
+
+        .logo {
+            color: white;
+            font-size: 1.4rem;
+            font-weight: 700;
+            text-decoration: none;
+        }
+
+        .nav-links {
+            list-style: none;
+            display: flex;
+            gap: 25px;
+        }
+
+        .nav-links a {
+            color: #d0d8e4;
+            text-decoration: none;
+            font-weight: 500;
+            transition: color 0.2s;
+        }
+
+        .nav-links a:hover,
+        .nav-links a.active {
+            color: #ffffff;
+        }
+
+        /* ========== HERO ========== */
+        .hero {
+            background: linear-gradient(135deg, #1e3a5f, #2c5282);
+            color: white;
+            text-align: center;
+            padding: 60px 20px;
+        }
+
+        .hero h1 {
+            font-size: 2.4rem;
+            margin-bottom: 12px;
+        }
+
+        .hero p {
+            font-size: 1.1rem;
+            opacity: 0.9;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        /* ========== ACTIVITIES SECTION ========== */
+        .container {
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 50px 20px;
+        }
+
+        .section-title {
+            text-align: center;
+            font-size: 1.8rem;
+            margin-bottom: 40px;
+            color: #1e3a5f;
+        }
+
+        .activities-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+        }
+
+        .card {
+            background: white;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+            transition: transform 0.25s, box-shadow 0.25s;
+        }
+
+        .card:hover {
+            transform: translateY(-6px);
+            box-shadow: 0 10px 25px rgba(0,0,0,0.12);
+        }
+
+        .card-img {
+            height: 160px;
+            background: linear-gradient(135deg, #4299e1, #3182ce);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 3rem;
+            color: white;
+        }
+
+        .card-body {
+            padding: 22px;
+        }
+
+        .card-body h3 {
+            font-size: 1.25rem;
+            margin-bottom: 8px;
+            color: #1e3a5f;
+        }
+
+        .card-body .date {
+            font-size: 0.85rem;
+            color: #718096;
+            margin-bottom: 12px;
+        }
+
+        .card-body p {
+            font-size: 0.95rem;
+            color: #4a5568;
+        }
+
+        /* ========== FOOTER ========== */
+        footer {
+            background-color: #1e3a5f;
+            color: #a0aec0;
+            text-align: center;
+            padding: 25px 20px;
+            margin-top: 40px;
+            font-size: 0.9rem;
+        }
+
+        footer a {
+            color: #63b3ed;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <nav>
+        <div class="nav-container">
+            <a href="index.html" class="logo">Group 7</a>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="team.html">Team</a></li>
+                <li><a href="activities.html" class="active">Activities</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- HERO -->
+    <section class="hero">
+        <h1>Our Activities</h1>
+        <p>Những hoạt động, sự kiện và cột mốc quan trọng của Group 7 trong quá trình học tập và phát triển dự án.</p>
+    </section>
+
+    <!-- ACTIVITIES -->
+    <div class="container">
+        <h2 class="section-title">Hoạt động nổi bật</h2>
+
+        <div class="activities-grid">
+
+            <!-- Card 1 -->
+            <div class="card">
+                <div class="card-img">📋</div>
+                <div class="card-body">
+                    <h3>Problem Analysis (W01)</h3>
+                    <div class="date">Tháng 10 / 2026</div>
+                    <p>Phân tích bài toán Smart Virtual Assistant System, xác định stakeholders, objectives, inputs/outputs và constraints của dự án.</p>
+                </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="card">
+                <div class="card-img">🧩</div>
+                <div class="card-body">
+                    <h3>Decomposition & Pattern Recognition</h3>
+                    <div class="date">Tháng 11 / 2026</div>
+                    <p>Chia nhỏ bài toán thành 6 module (P1–P6), nhận diện pattern và abstraction phục vụ thiết kế hệ thống.</p>
+                </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="card">
+                <div class="card-img">💻</div>
+                <div class="card-body">
+                    <h3>Triển khai Module P1 – Data Management</h3>
+                    <div class="date">Tháng 11 / 2026</div>
+                    <p>Xây dựng module quản lý dữ liệu: thu thập, validation và lưu trữ thông tin công việc bằng Python + SQLite.</p>
+                </div>
+            </div>
+
+            <!-- Card 4 -->
+            <div class="card">
+                <div class="card-img">🌐</div>
+                <div class="card-body">
+                    <h3>Xây dựng Website Nhóm</h3>
+                    <div class="date">Tháng 11 / 2026</div>
+                    <p>Mỗi thành viên phụ trách một trang HTML, sử dụng Git & GitHub để làm việc nhóm và tạo Pull Request.</p>
+                </div>
+            </div>
+
+            <!-- Card 5 -->
+            <div class="card">
+                <div class="card-img">🚀</div>
+                <div class="card-body">
+                    <h3>Phát triển Smart Virtual Assistant</h3>
+                    <div class="date">Đang thực hiện</div>
+                    <p>Tiếp tục xây dựng các module còn lại: Task Analysis, Prioritization, Scheduling và giao diện Streamlit.</p>
+                </div>
+            </div>
+
+            <!-- Card 6 -->
+            <div class="card">
+                <div class="card-img">🎯</div>
+                <div class="card-body">
+                    <h3>Mục tiêu sắp tới</h3>
+                    <div class="date">Tuần 6 – 9</div>
+                    <p>Hoàn thiện prototype, kiểm thử với dữ liệu thực tế và chuẩn bị báo cáo + thuyết trình cuối kỳ.</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>© 2026 Group 7 – CSC10014 Computational Thinking | 
+           <a href="https://github.com/nmquang2530/Group-7-html-website" target="_blank">GitHub Repository</a>
+        </p>
+    </footer>
+
+</body>
+</html>
