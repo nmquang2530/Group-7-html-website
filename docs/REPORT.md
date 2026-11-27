@@ -19,7 +19,7 @@ Github Pages: https://nmquang2530.github.io/Group-7-html-website/
 | --- | --- | --- | 
 | Nguyễn Minh Quang  | 1, 3, 6 | Work Completed | 
 | Nguyễn Đình Hoàng Lân | lorem ipsum | lorem ipsum |
-| Nguyễn Trí Dũng | 2 (contact) | Complete contact page |
+| Nguyễn Trí Dũng | 2 | Complete contact page |
 | Phạm Ngọc Bình Nguyên | lorem ipsum | lorem ipsum |
 | Đặng Đức Anh | lorem ipsum | lorem ipsum |
 | Lê Đình Minh Quân | lorem ipsum | lorem ipsum |
@@ -31,7 +31,9 @@ Evidence: ![Repository](Images/Repository_Quang.png)
 Result: Thành công tạo ra Repository
 
 ### Task 2: Working with Branches
-
+Work (Dũng): tạo contact branch và merge vào main
+[Contact code](https://github.com/nmquang2530/Group-7-html-website/blob/main/docs/Images/Proof%20of%20work%2025127307.png)
+[Contact Commit history](https://github.com/nmquang2530/Group-7-html-website/blob/main/docs/Images/Screenshot%20(484).png)
 ### Task 3: Collaborating with Pull Requests
 Work: Tạo các pull request và comment đánh giá
 Evidence: ![Pull Request Commit](Images/Pull_Request_Quang.png)
