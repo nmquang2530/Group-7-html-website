@@ -20,7 +20,7 @@ Github Pages: https://nmquang2530.github.io/Group-7-html-website/
 | Nguyễn Minh Quang  | 1, 3, 6 | Work Completed | 
 | Nguyễn Đình Hoàng Lân | lorem ipsum | lorem ipsum |
 | Nguyễn Trí Dũng | 2 | Complete contact page |
-| Phạm Ngọc Bình Nguyên | lorem ipsum | lorem ipsum |
+| Phạm Ngọc Bình Nguyên | Activities page | Complete activities.html + create feature branch and Pull Request |
 | Đặng Đức Anh | lorem ipsum | lorem ipsum |
 | Lê Đình Minh Quân | lorem ipsum | lorem ipsum |
 
@@ -51,6 +51,13 @@ Result: thành công đánh giá và merge nhánh lên main
 Work: hoàn thành website và release project
 Evidence: ![Pages](Images/Pages_Quang.png)
 Result: thành công publish trang web
+
+### Activities Page – Phạm Ngọc Bình Nguyên (25127109)
+Work: Tạo trang Activities (`activities.html`), tạo branch `feature/activities-page` và Pull Request.
+Evidence:
+![Activities page](Images/Activities_BinhNguyen.png)
+![Commit Activities](Images/Commit_Activities_BinhNguyen.png)
+Result: Thành công tạo trang Activities và merge vào main
 
 
 
