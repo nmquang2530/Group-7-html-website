@@ -30,5 +30,5 @@ A Project by Group 7 to make a website with html files
 ## Links
 
 - Repository: https://github.com/nmquang2530/Group-7-html-website 
-- Website: 
-- Project Report: 
+- Website: https://nmquang2530.github.io/Group-7-html-website/
+- Project Report: [Link Report](docs/REPORT.md)
