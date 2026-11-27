@@ -19,7 +19,7 @@ Github Pages: https://nmquang2530.github.io/Group-7-html-website/
 | --- | --- | --- | 
 | Nguyễn Minh Quang  | 1, 3, 6 | Work Completed | 
 | Nguyễn Đình Hoàng Lân | lorem ipsum | lorem ipsum |
-| Nguyễn Trí Dũng | lorem ipsum | lorem ipsum |
+| Nguyễn Trí Dũng | 2 (contact) | Complete contact page |
 | Phạm Ngọc Bình Nguyên | lorem ipsum | lorem ipsum |
 | Đặng Đức Anh | lorem ipsum | lorem ipsum |
 | Lê Đình Minh Quân | lorem ipsum | lorem ipsum |
