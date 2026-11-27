@@ -33,7 +33,7 @@ Result: Thành công tạo ra Repository
 ### Task 2: Working with Branches
 Work (Dũng): tạo contact branch và merge vào main
 ![Contact.html code](Images/Contact_html.png).
-![Contact Commit history](Contact_history.png).
+![Contact Commit history](Contact_commit.png).
 ### Task 3: Collaborating with Pull Requests
 Work: Tạo các pull request và comment đánh giá
 Evidence: ![Pull Request Commit](Images/Pull_Request_Quang.png)
