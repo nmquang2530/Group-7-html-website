@@ -32,8 +32,8 @@ Result: Thành công tạo ra Repository
 
 ### Task 2: Working with Branches
 Work (Dũng): tạo contact branch và merge vào main
-[Contact code](https://github.com/nmquang2530/Group-7-html-website/blob/main/docs/Images/Proof%20of%20work%2025127307.png)
-[Contact Commit history](https://github.com/nmquang2530/Group-7-html-website/blob/main/docs/Images/Screenshot%20(484).png)
+[Contact code](Image/Proof of work 25127307.png)
+[Contact Commit history](Image/Screenshot (484).png)
 ### Task 3: Collaborating with Pull Requests
 Work: Tạo các pull request và comment đánh giá
 Evidence: ![Pull Request Commit](Images/Pull_Request_Quang.png)
