@@ -79,3 +79,10 @@ Evidence:
 ![Home Page Preview](Images/Home_Quan.png)
 ![Home Page Commits](Images/Commit_Home_Quan.png)
 Result: Thành công tạo trang chủ `index.html` và merge vào `main`, hiển thị ổn định trên GitHub Pages.
+
+### Team Page – Đặng Đức Anh (25127011)
+Work: hoàn thành trang Team (`team.html`) tạo branch `feature/team-page` và Pull Request.
+Evidence:
+![page](Images/Rteam.png)
+![Commit team](Images/team.png)
+Result: Thành công tạo trang team và merge vào main
