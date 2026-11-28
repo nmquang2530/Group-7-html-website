@@ -18,7 +18,7 @@ Github Pages: https://nmquang2530.github.io/Group-7-html-website/
 | Member | Assigned Tasks | Contributions | 
 | --- | --- | --- | 
 | Nguyễn Minh Quang  | 1, 3, 6 | Work Completed | 
-| Nguyễn Đình Hoàng Lân | lorem ipsum | lorem ipsum |
+| Nguyễn Đình Hoàng Lân | 2 | Complete about.html, create feature branch and Pull Request |
 | Nguyễn Trí Dũng | 2 | Complete contact page |
 | Phạm Ngọc Bình Nguyên | Activities page | Complete activities.html + create feature branch and Pull Request |
 | Đặng Đức Anh | team page | Hoàn thành team.html, tạo feature branch và pull Request |
