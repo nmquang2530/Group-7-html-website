@@ -21,7 +21,7 @@ Github Pages: https://nmquang2530.github.io/Group-7-html-website/
 | Nguyễn Đình Hoàng Lân | lorem ipsum | lorem ipsum |
 | Nguyễn Trí Dũng | 2 | Complete contact page |
 | Phạm Ngọc Bình Nguyên | Activities page | Complete activities.html + create feature branch and Pull Request |
-| Đặng Đức Anh | lorem ipsum | lorem ipsum |
+| Đặng Đức Anh | team page | Hoàn thành team.html, tạo feature branch và pull Request |
 | Lê Đình Minh Quân | Home page, Task 2, 3, 4, 5, 7 | Hoàn thiện trang chủ `index.html` trên nhánh `feature/home-page` (3 commits, [PR #1](https://github.com/nmquang2530/Group-7-html-website/pull/1)); phối hợp tạo & giải quyết Merge Conflict ở Task 4 ([PR #8](https://github.com/nmquang2530/Group-7-html-website/pull/8)); thực hiện `git revert` commit lỗi `c17d74d` ở Task 5 ([`afbb84a`](https://github.com/nmquang2530/Group-7-html-website/commit/afbb84a)); cập nhật minh chứng Task 4, 5 và phần đóng góp cá nhân trong `docs/REPORT.md` |
 
 ## Evidence Các Task
