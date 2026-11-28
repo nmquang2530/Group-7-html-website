@@ -86,3 +86,10 @@ Evidence:
 ![page](Images/Rteam.png)
 ![Commit team](Images/team.png)
 Result: Thành công tạo trang team và merge vào main
+
+### About Page – Nguyễn Đình Hoàng Lân (25127206)
+Work: Hoàn thành trang About (`about.html`) tạo branch `feature/about-page` và Pull Request.
+Evidence:
+![page](Images/about_page.png)
+![Commit team](Images/commit_about_page.png)
+Result: Thành công tạo trang about và merge vào main
